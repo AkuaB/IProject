@@ -1,0 +1,45 @@
+nav{
+		 background-color: #ff6047;
+}
+.navbar-brand {
+	font-family: 'Poppins', serif;
+}
+
+form {
+	font-family: 'Eczar', serif;
+	color:#00e6ac;
+}
+
+body{
+	background-image:url("Images/spy.jpg");
+}
+
+h1 {
+	font-family: 'Metamorphous', serif;
+	font-weight: 500; color: #00e6ac; /* awesome green*/ 
+	float: left;
+	position: center;
+ }
+ 
+ h4{
+	font-family: 'Poppins', serif;
+	color: #a1a7a8;
+}
+
+
+img{
+	width:150px;
+	height:250px;
+	
+}
+
+img.icon{
+	width:50px;
+	height:30px;
+	
+}
+
+.list-group-item
+{
+	font-family: 'Eczar', serif;
+}

@@ -1,0 +1,42 @@
+.navbar-brand {
+	font-family: 'Poppins', serif;
+}
+
+form {
+	font-family: 'Eczar', serif;
+	border-radius: 0;
+}
+
+button{
+	background-color:#75dcdc;
+}
+
+label {
+	padding: 0px 15px 0px 0px;
+}
+
+h4{
+	color: #fff;
+}
+
+h5 {
+	font-family: 'Metamorphous', serif;
+	color: #fff;
+}
+
+body{
+	/*background-image:url(Images/splash.png);*/
+	background-image:url(Images/dots.jpg);
+}
+
+img{
+	width:200px;
+	height:150px;
+}
+
+/*a>img{
+	width:60px;
+	height:40px;
+	float: left;
+	padding:0px;
+}*/

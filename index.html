@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Akua Afrane-Okese" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 	crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+		<link rel="stylesheet" href="CSS/style.css"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Eczar">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Metamorphous">
+		<link rel="icon" type="image/png" href="Images/logo.png" />
+		<title>File Up</title> 
+	</head>
+	
+	<body>
+		<nav class="navbar navbar-light bg-light">
+			<a class="navbar-brand" href="#">File Up</a>
+				
+				
+				<form class="form-inline my-2 my-lg-0" action="login.php" method="post">
+					<label for="email">Email address: </label>
+					<input class="form-control mr-sm-2" type="email" name="email" id="email" placeholder="john.doe@gmail.com"/>
+					<label for="pass">Password: </label>
+					<input class="form-control mr-sm-2" type="password" name="pass" id="pass" placeholder="********"/>
+					<button class="btn my-2 my-sm-0" name="logout" type="submit">Login</button>
+				</form>
+		</nav>
+
+		<br/><br/>
+		<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+			 <h5>Create projects for your variety</h5>
+			<h5>Find something new with society!</h5>
+			<h5>Share your thoughts with family and friends!</h5>
+			<h4>Even More At File Up!</h4><br/><br/>
+				
+			</div>
+			
+			<div class="col-sm-6 mt-4 mt-sm-0">
+				<div class="card">
+					<form action="register.php" method="post">
+					    <fieldset>
+						<legend class="card-header">Register</legend>
+						<div class="card-body">
+						<div class="form-group">
+							<div class="form-row ">
+								<div class="col-lg-6 col-md-12 col-sm-12">
+								    <label for="fname">First name:</label>
+								    <input class="form-control" type="text" name="fname" id="fname" placeholder="John"/>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12">
+								    <label for="lname">Last name:</label>
+								    <input class="form-control" type="text" name="lname" id="lname" placeholder="Doe"/>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12">
+								    <label for="email1">Email address:</label>
+								    <input class="form-control" type="email" name="email1" id="email1" placeholder="john.doe@gmail.com"/>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12">
+								    <label for="date">Date of birth:</label>
+								    <input class="form-control" type="date" name="date" id="date"/>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12">
+								    <label for="pass1">Create password:</label>
+								    <input class="form-control" type="password" name="pass1" id="pass1" placeholder="********"/>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12">
+								    <label for="pass1">Confirm password:</label>
+								    <input class="form-control" type="password" name="pass2" id="pass2" placeholder="********"/>
+								</div>
+							</div>
+						</div>	
+						<button type="submit" class="btn btn-dark">Register <i class="fas fa-angle-right"></i></button>
+						</div>
+					    </fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	</body>
+</html>
